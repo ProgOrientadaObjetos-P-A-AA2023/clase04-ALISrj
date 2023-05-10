@@ -45,5 +45,13 @@ public class Persona {
         return barrio;
     }
     
-    
+    @Override
+    public String toString(){
+    String cadena = String.format("El barrio de la persona %s es: %s\n Y pertenece a la "
+                + "ciudad: %s\n",
+                obtenerNombre(),
+                obtenerBarrio().obtenerNombre(),
+                obtenerBarrio().obtenerCiudad().obtenerNombre());
+    return cadena;
+    }
 }
