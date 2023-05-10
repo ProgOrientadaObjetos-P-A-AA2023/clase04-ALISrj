@@ -51,5 +51,5 @@ public class Usuario {
     public String obtenerIdentificacion(){
         return identificacion;
     }
-        
+
 }
